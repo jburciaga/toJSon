@@ -1,0 +1,47 @@
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 21:41:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 21:44:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 21:44:39] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 21:50:12] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 21:51:08] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?Primero=Uno HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:24:40] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?Primero=Uno HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:25:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?Primero=Uno HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:26:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started{'Primero': ['Uno']}
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:27:30] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:27:30] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started {'Primero': ['Uno']}
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:28:30] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started /?Primero=Uno
+INFO:werkzeug:127.0.0.1 - - [24/Oct/2018 22:34:04] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:08:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:08:42] "GET /favicon.ico HTTP/1.1" 404 -
