@@ -45,3 +45,8 @@ INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSo
 INFO:root:Started /?
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:08:41] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:08:42] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:45:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:45:54] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started /?Primero=Ya
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:46:01] "GET /?Primero=Ya HTTP/1.1" 200 -
