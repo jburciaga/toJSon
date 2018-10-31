@@ -50,3 +50,56 @@ INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:45:53] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:45:54] "GET /favicon.ico HTTP/1.1" 404 -
 INFO:root:Started /?Primero=Ya
 INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 03:46:01] "GET /?Primero=Ya HTTP/1.1" 200 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 17:54:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 17:54:34] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 17:54:43] "GET /index HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 17:54:51] "GET /index.html HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 17:55:01] "GET /app.py HTTP/1.1" 404 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:20] "GET / HTTP/1.1" 200 -
+INFO:root:Started /?Primero=Uno
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:25] "GET /?Primero=Uno HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:15:26] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Antonia\\Documents\\flask\\toJSon\\app.py', reloading
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:17:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:17:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started /?Primero=Uno&Segundo=2&Segundo=3
+INFO:werkzeug:127.0.0.1 - - [30/Oct/2018 22:17:18] "GET /?Primero=Uno&Segundo=2&Segundo=3 HTTP/1.1" 200 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:05:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:05:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started /?Primero=\141
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:06:14] "GET /?Primero=\141 HTTP/1.1" 200 -
+INFO:root:Started /?Primero=\\
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:07:23] "GET /?Primero=\\ HTTP/1.1" 200 -
+INFO:root:Started /?Primero=2+3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:09:04] "GET /?Primero=2+3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=dos+3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:09:56] "GET /?Primero=dos+3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=dos+3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:11:10] "GET /?Primero=dos+3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=dos+3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:14:15] "GET /?Primero=dos+3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=dos+3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:15:05] "GET /?Primero=dos+3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=dos%2B3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:17:20] "GET /?Primero=dos%2B3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=2%2B3j
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:17:35] "GET /?Primero=2%2B3j HTTP/1.1" 200 -
+INFO:root:Started /?Primero=\a
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:18:00] "GET /?Primero=\a HTTP/1.1" 200 -
+INFO:root:Started /?Primero=\141
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:20:36] "GET /?Primero=\141 HTTP/1.1" 200 -
+INFO:root:Started /?Primero=1\141
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:25:10] "GET /?Primero=1\141 HTTP/1.1" 200 -
+INFO:root:Started /?Primero=1\\141
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:25:19] "GET /?Primero=1\\141 HTTP/1.1" 200 -
+INFO:root:Started /?Primero=1\141
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:25:23] "GET /?Primero=1\141 HTTP/1.1" 200 -

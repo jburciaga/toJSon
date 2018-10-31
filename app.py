@@ -4,12 +4,12 @@ import logging
 
 app = Flask(__name__)
 
-def encodeForJSON(valor):
+def decodeForJSON(valor):
     if isinstance(valor, list):
         if len(valor) > 1:
-            valor = [encodeForJSON(i) for i in valor]
+            valor = [decodeForJSON(i) for i in valor]
         else:
-            valor = encodeForJSON(valor[0])
+            valor = decodeForJSON(valor[0])
     else:    
         if valor == '':
             valor = None
@@ -17,14 +17,14 @@ def encodeForJSON(valor):
             valor = True
         elif ([valor.upper()] == ['FALSE']):
             valor = False
-        elif valor.isdecimal():
-            valor = float(valor)
-        elif re.match(r'[-+]?([0-9]*\.[0-9]+|[0-9]+)', str.strip(valor)):
+        elif re.match(r'^[-+]?[0-9]+$', str.strip(valor)):
+            valor = int(valor)
+        elif re.match(r'^[-+]?([0-9]+|[0-9]+\.[0-9]*|[0-9]*\.[0-9]+)$', str.strip(valor)):
             valor = float(str.strip(valor))
     return valor  
 
 def ArgsToJSon(argsGET):
-    DiccionarioArgs = dict([(K, encodeForJSON(V)) for (K,V) in argsGET.lists()])
+    DiccionarioArgs = dict([(K, decodeForJSON(V)) for (K,V) in argsGET.lists()])
     return json.dumps(DiccionarioArgs)
 
 @app.route("/")
