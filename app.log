@@ -103,3 +103,12 @@ INFO:root:Started /?Primero=1\\141
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:25:19] "GET /?Primero=1\\141 HTTP/1.1" 200 -
 INFO:root:Started /?Primero=1\141
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 01:25:23] "GET /?Primero=1\141 HTTP/1.1" 200 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:16:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:16:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:root:Started /?Primero=Uno
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:16:56] "GET /?Primero=Uno HTTP/1.1" 200 -
+INFO:root:Started /?
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:56:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:56:35] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Oct/2018 18:56:53] "GET /app.py HTTP/1.1" 404 -
